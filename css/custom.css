@@ -1,0 +1,157 @@
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item{
+    background:rgba(255, 255, 255, 0.8);
+    height: 16em;
+}
+/* 首页侧栏卡片 */
+.card-widget{
+    background:rgba(255, 255, 255, 0.8)!important;
+}
+/* 文章页面正文背景 */
+div#post{
+    background: rgba(255, 255, 255, 0.8);
+}
+/* 分页页面 */
+div#page{
+    background: rgba(255, 255, 255, 0.8);
+}
+/* 归档页面 */
+div#archive{
+    background: rgba(255, 255, 255, 0.8);
+}
+/* 标签页面 */
+div#tag{
+    background: rgba(255, 255, 255, 0.8);
+}
+/* 分类页面 */
+div#category{
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* 页脚透明 */
+#footer{
+    background: transparent!important;
+}
+/* 头图透明 */
+#page-header{
+    background: transparent!important;
+}
+
+.notice-logo {
+    line-height: 22px;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+#notice {
+    height: 47px;
+    background:rgba(255, 255, 255, 0.8)!important;
+    background-color: white;
+    color: var(--font-color);
+    margin-top: 0rem;
+    padding: 0.6rem 1rem 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    overflow: hidden;
+}
+[data-theme="dark"] #notice {
+    background: black !important;
+}
+#notice span {
+    white-space: nowrap;
+}
+.swiper-wrapper {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+.swiper-wrapper .swiper-slide {
+    width: 100%;
+    text-align: center;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.swiper-slide:hover {
+    color: #81d8cf;
+}
+#noticeList {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.notice-enter {
+    line-height: 25px;
+    margin-left: 8px;
+    transition: 0.3s;
+}
+
+/*白天模式伪类遮罩层透明*/
+[data-theme="light"]
+#footer::before{
+    background: transparent!important;
+}
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"]
+#footer::before{
+    background: transparent!important;
+}
+[data-theme="dark"]
+#page-header::before{
+    background: transparent!important;
+}
+/*夜间模式页面背景设置为半透明*/
+[data-theme="dark"]
+div.recent-post-item{
+    background: rgba(0, 0, 0, 0.5)!important;
+}
+[data-theme="dark"]
+#aside-content .card-widget{
+    background: rgba(0, 0, 0, 0.5)!important;
+}
+[data-theme="dark"]
+div#post{
+    background: rgba(0, 0, 0, 0.5)!important;
+}
+[data-theme="dark"]
+div#page{
+    background: rgba(0, 0, 0, 0.5)!important;
+}
+[data-theme="dark"]
+div#archive{
+    background: rgba(0, 0, 0, 0.5)!important;
+}
+[data-theme="dark"]
+div#tag{
+    background: rgba(0, 0, 0, 0.5)!important;
+}
+[data-theme="dark"]
+div#category{
+    background: rgba(0, 0, 0, 0.5)!important;
+}
+
+/*阅读模式*/
+.read-mode #aside-content .card-widget{
+    background: rgba(158, 204, 171, 0.5)!important;
+}
+.read-mode div#post{
+    background: rgba(158, 204, 171, 0.5)!important;
+}
+/*夜间阅读模式*/
+[data-theme="dark"]
+.read-mode #aside-content .card-widget{
+    background: rgba(0, 0, 0, 0.5)!important;
+    color: #eeeeee;
+}
+[data-theme="dark"]
+.read-mode div#post{
+    background: rgba(0, 0, 0, 0.5)!important;
+    color: #eeeeee;
+}
