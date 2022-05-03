@@ -3352,10 +3352,10 @@ li.categoryBar-list-item:nth-child(1)>span::after {
   content: 'ads' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '杂谈教程' !important;
+  content: 'Programming Language' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
-  content: '玩转Win10' !important;
+  content: 'Tools' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
   content: 'Ubuntu指南' !important;
