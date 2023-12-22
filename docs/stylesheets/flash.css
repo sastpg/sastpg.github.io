@@ -1,0 +1,54 @@
+.flashbox{
+    position: relative;
+    background: linear-gradient(90deg, #ff9966, #ffeb3b, #ffff00, #ff9966);
+    /* 背景色放大 */
+    background-size: 400%;
+    /* 文本居中 */
+    text-align: center;
+    /* 字体颜色 */
+    color: #fff;
+    /* 设置成胶囊状 */
+    border-radius: 10px;
+    /* 值为正数在上面显示，反之 */
+    z-index: 1;
+    padding: 40px;
+}
+
+.flashbox p {
+    line-height: 40px;
+    font-size: 25px;
+}
+
+/* 设置发光 */
+.flashbox::before{
+    content: "";
+    position: absolute;
+    /* 设置发光范围 */
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    /* 设置发光颜色 */
+    background: linear-gradient(90deg, #ff9966, #ffeb3b, #ffff00, #ff9966);
+    background-size: 400%;
+    border-radius: 10px;
+    /* filter实现高斯模糊 */
+    filter: blur(20px);
+    z-index: -1;
+}
+ 
+.flashbox:hover::before{
+    animation: sun 16s infinite;
+}
+/* 鼠标经过产生的效果 */
+.flashbox:hover{
+    /* 产生8秒的效果，sun是名称*/
+    animation: sun 16s infinite;
+}
+/* 设置流光 */
+@keyframes sun{
+    100%{
+        /* 以x轴为基准向左移动4个自身大小 */
+        background-position: -400% 0;
+    }
+}

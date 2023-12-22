@@ -1,0 +1,132 @@
+site_name: Z's blog
+site_url: https://sastpg.github.io/
+repo_name: sastpg/sastpg
+repo_url: https://github.com/sastpg/sastpg.github.io
+edit_uri: edit/main/docs
+site_description: Blog of Kongcheng Zhang
+copyright: Copyright &copy; 2022-2024 <a href="https://github.com/sastpg" target="_blank" rel="noopener">sastpg</a>
+
+nav:
+  - Home:
+    - index.md
+    - About me: about.md
+  - Computer Science:
+    - cs/index.md
+    - 操作系统:
+      - 第一章: cs/os/1.md
+  - Tools:
+    - tools/index.md
+    - 个人轻首页上线！: tools/page.md
+
+  - Life:
+    - life/index.md
+
+theme: 
+  name: 'material'
+  language: 'en'
+  # logo: log.ico
+  # favicon: log.ico
+  # custom_dir: overrides
+  favicon: assets/Z5.png
+  icon: 
+    logo: material/notebook-outline
+    repo: fontawesome/brands/github-alt
+  features:
+    - content.code.annotate
+    - content.code.copy
+    # - navigation.footer
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - search.share # 搜索分享按钮
+  font: false
+  palette:
+    - scheme: springdefault # 日间模式
+      # primary: orange # 上方的
+      accent: deep purple # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: Switch to dark mode # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      # primary: custom
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sastpg
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<zhangkc@zju.edu.cn> #联系方式
+
+extra_css:
+  # - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css
+  # - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  # - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - stylesheets/extra.css
+  - stylesheets/flash.css
+  - stylesheets/flink.css
+  - stylesheets/card.css
+  - stylesheets/timeline.css
+
+extra_javascript:
+  # - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
+  # - https://cdn.tonycrane.cc/utils/katex.min.js
+  # - javascripts/katex.js
+  # - javascripts/heti.js
+  # - javascripts/scheme.js # this is in template 'base.html'
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
+  - def_list
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - admonition
+  - footnotes
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: en
+      enable_creation_date: true
+      exclude:
+        - index.md
+  - tags  #标签
+  - glightbox
