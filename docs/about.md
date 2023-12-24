@@ -19,65 +19,23 @@ I'm currently a senior student in Zhejiang University(ZJU), major in computer sc
             <div class="timeline-container">
                 <ul style="margin-left: 0;">
                     <li style="margin-left: 0;">
-                        <h3 class="timeline-heading">FrontEnd Developer</h3>
+                        <h3 class="timeline-heading">五日成都&重庆之旅</h3>
                         <div class="timeline-imgbox">
-                            <img src="/assets/Z5.png" alt="">
+                            <img src="/life/assets/chongqing.jpg" alt="">
                         </div>
-                        <p>中国的的卡拉的快乐和发挥立刻赶回价格肯定更好是德国海军的疯狂进攻货到付款还是理工科是的客观环境和古人提供iiu收入提高 </p>
+                        <p>总要去一次川渝吧！成都很好吃，重庆很壮观。有点遗憾的是在重庆玩的时间短了点。</p>
                         <a href="#">Read More ></a>
-                        <span class="timeline-date">January 2021</span>
+                        <span class="timeline-date"> 2023.11.21</span>
                         <span class="timeline-circle"></span>
                     </li>
                     <li style="margin-left: 0;">
-                        <h3 class="timeline-heading">BackEnd Developer</h3>
+                        <h3 class="timeline-heading">小白的装机记录</h3>
                         <div class="timeline-imgbox">
-                            <img src="/assets/Z5.png" alt="">
+                            <img src="/life/assets/pc.jpg" alt="">
                         </div>
-                        <p>中国的的卡拉的快乐和发挥立刻赶回价格肯定更好是德国海军的疯狂进攻货到付款还是理工科是的客观环境和古人提供iiu收入提高收到贵司订单，化工板块是觉得不该看见的科技改变看法 </p>
+                        <p>第一次学者自己买部件装机，学到了不少，也踩了坑，值得记录一下。</p>
                         <a href="#">Read More ></a>
-                        <span class="timeline-date">February 2021</span>
-                        <span class="timeline-circle"></span>
-                    </li>
-                    <li style="margin-left: 0;">
-                        <h3 class="timeline-heading">Full Stack Developer</h3>
-                        <div class="timeline-imgbox">
-                            <img src="/assets/Z5.png" alt="">
-                        </div>
-                        <p>中国的的卡拉的快乐和发挥立刻赶回价格肯定更好是德国海军的疯狂进攻货到付款还是理工科是的客观环境和古人提供iiu收入提高，速度公分以上的 </p>
-                        <a href="#">Read More ></a>
-                        <span class="timeline-date">March 2021</span>
-                        <span class="timeline-circle"></span>
-                    </li>
-                    <li style="margin-left: 0;">
-                        <h3 class="timeline-heading">App Developer</h3>
-                        <div class="timeline-imgbox">
-                            <img src="/assets/Z5.png" alt="">
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
-                        <a href="#">Read More ></a>
-                        <span class="timeline-date">April 2021</span>
-                        <span class="timeline-circle"></span>
-                    </li>
-                    <li style="margin-left: 0;">
-                        <h3 class="timeline-heading">Test1</h3>
-                        <div class="timeline-imgbox">
-                            <img src="/assets/Z5.png" alt="">
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
-                        <a href="#">Read More ></a>
-                        <span class="timeline-date">July 2020</span>
-                        <span class="timeline-circle"></span>
-                    </li>
-                    <li style="margin-left: 0;">
-                        <h3 class="timeline-heading">Test2</h3>
-                        <div class="timeline-imgbox">
-                            <img src="/assets/Z5.png" alt="">
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
-                        <span class="timeline-date">June 2019</span>
+                        <span class="timeline-date">2023.11.10</span>
                         <span class="timeline-circle"></span>
                     </li>
                 </ul>
