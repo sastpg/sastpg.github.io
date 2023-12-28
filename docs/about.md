@@ -24,7 +24,7 @@ I'm currently a senior student in Zhejiang University(ZJU), major in computer sc
                             <img src="/life/assets/chongqing.jpg" alt="">
                         </div>
                         <p>总要去一次川渝吧！成都很好吃，重庆很壮观。有点遗憾的是在重庆玩的时间短了点。</p>
-                        <a href="#">Read More ></a>
+                        <a href="../life/cdcq/">Read More ></a>
                         <span class="timeline-date"> 2023.11.21</span>
                         <span class="timeline-circle"></span>
                     </li>
@@ -34,7 +34,7 @@ I'm currently a senior student in Zhejiang University(ZJU), major in computer sc
                             <img src="/life/assets/pc.jpg" alt="">
                         </div>
                         <p>第一次学者自己买部件装机，学到了不少，也踩了坑，值得记录一下。</p>
-                        <a href="#">Read More ></a>
+                        <a href="../life/zhuangji/">Read More ></a>
                         <span class="timeline-date">2023.11.10</span>
                         <span class="timeline-circle"></span>
                     </li>

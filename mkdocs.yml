@@ -18,6 +18,7 @@ nav:
     - research/index.md
   - Tools:
     - tools/index.md
+    - VSCode 配置: tools/vscode/index.md
     - 个人轻首页上线！: tools/page/index.md
 
   - Life:
