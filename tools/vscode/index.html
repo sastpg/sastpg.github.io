@@ -654,6 +654,47 @@
     Remote-SSH
   </a>
   
+    <nav class="md-nav" aria-label="Remote-SSH">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    安装插件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    添加主机
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    填写配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    连接主机
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    免密连接
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -819,6 +860,47 @@
     Remote-SSH
   </a>
   
+    <nav class="md-nav" aria-label="Remote-SSH">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    安装插件
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    添加主机
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    填写配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    连接主机
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    免密连接
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -847,13 +929,47 @@
 <p>VSCode(Visual Studio Code) 是一款轻量的代码编辑器，这里记录一下常用插件的配置。</p>
 <h2 id="remote-ssh">Remote-SSH<a class="headerlink" href="#remote-ssh" title="Permanent link">&para;</a></h2>
 <p>Remote-SSH 插件为开发者提供了在远程服务器上进行代码编辑和调试的能力。通过这个插件，你可以在本地的VSCode编辑器中，直接连接到远程服务器，并像在本地编辑代码一样，对远程服务器上的代码进行修改、保存和调试。很好用的远程开发工具，下面介绍如何配置连接多台服务器。</p>
+<h3 id="_1">安装插件<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<p>在 VSCode 插件市场中搜索 remote ssh 插件并安装，安装完后会发现左侧多了个电脑图标。</p>
+<p><center><a class="glightbox" href="assets/plugin.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="plugin" src="assets/plugin.png" /></a></center></p>
+<h3 id="_2">添加主机<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>点击这个电脑图标，点击右侧SSH的"+"号，添加一台远程主机。</p>
+<p><center><a class="glightbox" href="assets/addremote.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="addremote" src="assets/addremote.png" /></a></center></p>
+<p>接下来输入主机的公网IP，并选择配置文件的位置，注意Windows平台是"C:\Users\你的用户名\.ssh\config"。</p>
+<p><center><a class="glightbox" href="assets/ip.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="ip" src="assets/ip.png" width="600" /></a></center>
+<center><a class="glightbox" href="assets/config.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="config" src="assets/config.png" width="600" /></a></center></p>
+<h3 id="_3">填写配置<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>上一步完成后右下角会弹出Host Added的提示，我们点击Open Config进行配置。</p>
+<p><center><a class="glightbox" href="assets/openconfig.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="config" src="assets/openconfig.png" width="600" /></a></center></p>
+<p>配置模板如下：
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Host 主机名
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  HostName 主机IP
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  User 用户名
+</code></pre></div></p>
+<ul>
+<li>Host ：连接的主机名称，可自定义；</li>
+<li>Hostname ：远程主机的 IP 地址；</li>
+<li>User ：用于登录远程主机的用户名；</li>
+</ul>
+<p><center><a class="glightbox" href="assets/setconfig.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="setconfig" src="assets/setconfig.png" /></a></center></p>
+<h3 id="_4">连接主机<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>配置文件填完保存后，点击SSH上方的刷新按钮，就会出现刚才配置的主机名，鼠标移到主机名上，在右侧选择Connect in Current Window，就开始连接了。</p>
+<p><center><a class="glightbox" href="assets/refresh.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="refresh" src="assets/refresh.png" /></a></center></p>
+<p>首次连接会要求选择主机的platform，因为是Linux服务器所以选Linux，然后点击Continue，输入密码后就可以连接上了。</p>
+<p><center><a class="glightbox" href="assets/platform.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="platform" src="assets/platform.png" width="600" /></a></center>
+<center><a class="glightbox" href="assets/continue.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="continue" src="assets/continue.png" width="600" /></a></center>
+<center><a class="glightbox" href="assets/password.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="password" src="assets/password.png" width="600" /></a></center></p>
+<p>当左下角出现SSH: 主机名的时候，说明连接成功。</p>
+<p><center><a class="glightbox" href="assets/connect.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="connect" src="assets/connect.png" /></a></center></p>
+<h3 id="_5">免密连接<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>经过上面的配置后，我们已经可以成功连上远程主机进行开发了，但是每次打开远程主机或者新的文件夹都要输入密码才行，显得有些麻烦，接下来说明如何用密钥免密码连接远程。</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 28, 2023 22:05:02</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 31, 2023 00:18:13</span>
       
         <br>
         Created:
