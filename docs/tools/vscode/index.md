@@ -99,6 +99,6 @@ Host 主机名
 ```
 <center>![multiconfig](./assets/multiconfig.jpg){width=600}</center>
 
-接下来在SSH点击刷新或者重启VSCode，就可以看到刚添加的主机了。
+在SSH点击刷新或者重启VSCode，就可以看到刚添加的主机了。
 
 ## Copilot

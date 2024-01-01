@@ -23,6 +23,15 @@ glightbox: False
     
 
 <div class="flink-list">
+<div class="flink-list-item">
+        <a href="./life/2023final/" title="2023年终总结" target="_blank">
+            <div class="flink-item-icon">
+                <img src="./life/assets/sunset.jpg" alt="chongqing">
+            </div>
+            <div class="flink-item-name">2023年终总结</div>
+            <div class="flink-item-desc">风物长宜放眼量</div>
+        </a>
+    </div>
     <div class="flink-list-item">
         <a href="./life/kaoyan/" title="考研日有感" target="_blank">
             <div class="flink-item-icon">
