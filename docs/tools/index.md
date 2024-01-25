@@ -5,5 +5,6 @@
 
 ## Table of Contents
 
+- [oh my zsh](./oh-my-zsh/index.md)
 - [VSCoed 配置](./vscode/index.md)
 - [个人轻首页](./page/index.md)

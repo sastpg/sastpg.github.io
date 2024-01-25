@@ -12,12 +12,16 @@ nav:
     - About me: about.md
   - Computer Science:
     - cs/index.md
+    - Deep Learning:
+      - cs/deeplearning/index.md
+      - Lecture1: cs/deeplearning/Lecture1.md
     - 操作系统:
       - 第一章: cs/os/1.md
   - Research:
     - research/index.md
   - Tools:
     - tools/index.md
+    - oh my zsh: tools/oh-my-zsh/index.md
     - VSCode 配置: tools/vscode/index.md
     - 个人轻首页上线！: tools/page/index.md
 
