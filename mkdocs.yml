@@ -42,6 +42,7 @@ theme:
   icon: 
     logo: material/notebook-outline
     repo: fontawesome/brands/github-alt
+    annotation: material/plus-circle-outline
   features:
     - content.code.annotate
     - content.code.copy
@@ -115,7 +116,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.snippets
   - pymdownx.magiclink
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
