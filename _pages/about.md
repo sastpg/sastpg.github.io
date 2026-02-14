@@ -20,10 +20,10 @@ redirect_from:
 # ✨ About Me
 **Hello, my name is Kongcheng Zhang (张孔枨)**. I am currently a second-year master student in the [College of Computer Science and Technology](http://www.en.cs.zju.edu.cn/) at [Zhejiang University](https://www.zju.edu.cn/english/) and a member of [VIPA Group](https://www.vipazoo.cn/), supervised by Prof. [Mingli Song](https://scholar.google.com/citations?user=7oLbhAwAAAAJ). In 2024, I received my B.Eng. degree in Computer Science from Zhejiang University and was admitted to persue my M.S. degree in Zhejiang University without entrance examination.
 
-My research filed is **Large Language Models (LLMs)**, particularly focusing on pushing forward the reasoning (*e.g.*, math and instruction following) and agentic (*e.g.*, coding and tool use) capabilities in LLMs through Reinforcement Learning (RL). Please feel free to contact me if you are interested in my research :)
+My research field is **Large Language Models (LLMs)**, particularly focusing on pushing forward the reasoning (*e.g.*, math and instruction following) and agentic (*e.g.*, coding and tool use) capabilities in LLMs through Reinforcement Learning (RL). Please feel free to contact me if you are interested in my research :)
 
 # 📖 Educations
-- 2020.06 - Present, [College of Computer Science and Technology, Zhejiang University](http://www.en.cs.zju.edu.cn/), Hangzhou, China
+- 2024.09 - Present, [College of Computer Science and Technology, Zhejiang University](http://www.en.cs.zju.edu.cn/), Hangzhou, China
 - 2020.09 - 2024.06, [College of Computer Science and Technology, Zhejiang University](http://www.en.cs.zju.edu.cn/), Hangzhou, China
 
 
