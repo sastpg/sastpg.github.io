@@ -39,7 +39,7 @@ My research field is **Large Language Models (LLMs)**, particularly focusing on 
       <div class="pub-authors">
           <span class="me">Kongcheng Zhang</span>, Qi Yao, Shunyu Liu, Wenjian Zhang, Min Cen, Yang Zhou, Wenkai Fang, Yiru Zhao, Baisheng Lai, Mingli Song
       </div>
-      <p>arXiv preprint arXiv:2512.23457</p>
+      <p>International Conference on Machine Learning (<b>ICML</b>), 2026</p>
       <div class="pub-links">
           <a href="https://arxiv.org/abs/2512.23457">PDF</a>
           <a href="https://github.com/sastpg/HIR">Code</a>
@@ -73,6 +73,21 @@ My research field is **Large Language Models (LLMs)**, particularly focusing on 
       <div class="pub-links">
           <a href="https://arxiv.org/abs/2502.13389">PDF</a>
           <a href="https://github.com/sastpg/RFTT">Code</a>
+      </div>
+  </li>
+
+  <li class="pub-item">
+      <div class="pub-header">
+          <h3 class="pub-title">Experience is the Best Teacher: Motivating Effective Exploration in Reinforcement Learning for LLMs</h3>
+          <span class="venue-badge green">Exploration</span>
+      </div>
+      <div class="pub-authors">
+          Wenjian Zhang, <span class="me">Kongcheng Zhang</span>, Jiaxin Qi, Baisheng Lai, Jianqiang Huang
+      </div>
+      <p>International Conference on Machine Learning (<b>ICML</b>), 2026</p>
+      <div class="pub-links">
+          <a href="https://arxiv.org/abs/2603.20046">PDF</a>
+          <a href="https://github.com/sikelifei/HeRL">Code</a>
       </div>
   </li>
 
@@ -129,7 +144,7 @@ My research field is **Large Language Models (LLMs)**, particularly focusing on 
       <div class="pub-authors">
           Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, <span class="me">Kongcheng Zhang</span>, Jiale Zhao, Jingwen Yang, Yihe Zhou, Jianwei Lv, Tongya Zheng, Hengtong Lu, Wei Chen, Yan Xie, Mingli Song
       </div>
-      <p>arXiv preprint arXiv:2508.16949</p>
+      <p>International Conference on Machine Learning (<b>ICML</b>), 2026</p>
       <div class="pub-links">
           <a href="https://arxiv.org/abs/2508.16949">PDF</a>
           <a href="https://github.com/IANNXANG/RuscaRL">Code</a>
